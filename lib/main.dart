@@ -1,5 +1,6 @@
-import 'package:ft_ui_challenge_settings/pages/setting_1.dart';
 import 'package:flutter/material.dart';
+import 'package:ft_ui_challenge_settings/pages/setting_1.dart';
+import 'package:ft_ui_challenge_settings/pages/setting_2.dart';
 
 import 'pages/home_page.dart';
 
@@ -14,7 +15,7 @@ class MyApp extends StatelessWidget {
       routes: {
         '/': (context) => MyHomePage(),
         '/first': (context) => MySetting1(),
-        // '/second': (context) => MySetting2(),
+        '/second': (context) => MySetting2(),
         // '/third': (context) => MySetting3(),
       },
     );
